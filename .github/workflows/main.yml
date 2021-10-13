@@ -42,7 +42,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@kippie-bv'
       - run: echo registry=https://npm.pkg.github.com/kippie-bv >> .npmrc
-      - run: yarn install
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.PUBLISH_GITHUB_TOKEN}}
