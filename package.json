@@ -1,6 +1,6 @@
 {
   "name": "@kippie-bv/nuxt-hotjar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Hotjar integration for Nuxt",
   "main": "lib/module.js",
   "repository": {
@@ -14,7 +14,7 @@
   "author": {
     "name": "Mees Hoogendoorn",
     "email": "m.hoogendoorn@krs.nl",
-    "url" : "https://www.linkedin.com/in/meeshoogendoorn"
+    "url": "https://www.linkedin.com/in/meeshoogendoorn"
   },
   "keywords": [
     "hotjar",
@@ -26,7 +26,7 @@
     "node",
     "javascript"
   ],
-  "licenses" : [
+  "licenses": [
     {
       "type": "MIT",
       "url": "https://www.opensource.org/licenses/mit-license.php"
