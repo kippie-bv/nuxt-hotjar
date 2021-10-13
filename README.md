@@ -1,9 +1,9 @@
 # hotjar-nuxt
 
 ### Installing
-npm: `npm install @kippie-bv/hotjar-nuxt`
+npm: `npm install @kippie-bv/nuxt-hotjar`
 
-yarn: `yarn add @kippie-bv/hotjar-nuxt`
+yarn: `yarn add @kippie-bv/nuxt-hotjar`
 
 ### Features
 - track changes manually by route change path or Fullpath
@@ -17,7 +17,7 @@ yarn: `yarn add @kippie-bv/hotjar-nuxt`
 // nuxt.config.js
 export default {
   modules: [
-    "@kippie-bv/hotjar-nuxt",
+    "@kippie-bv/nuxt-hotjar",
   ],
   
   hotjar: {
