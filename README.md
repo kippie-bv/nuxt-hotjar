@@ -2,6 +2,7 @@
 
 ### Installing
 npm: `npm install @kippie-bv/hotjar-nuxt`
+
 yarn: `yarn add @kippie-bv/hotjar-nuxt`
 
 ### Features
