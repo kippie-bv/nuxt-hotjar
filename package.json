@@ -1,19 +1,20 @@
 {
-  "name": "@kippie-bv/hotjar-nuxt",
+  "name": "@kippie-bv/nuxt-hotjar",
   "version": "1.0.0",
   "description": "Hotjar integration for Nuxt",
   "main": "lib/module.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kippie-bv/hotjar-nuxt"
+    "url": "https://github.com/kippie-bv/nuxt-hotjar"
   },
   "bugs": {
-    "url": "https://github.com/kippie-bv/hotjar-nuxt/issues"
+    "url": "https://github.com/kippie-bv/nuxt-hotjar/issues"
   },
-  "homepage": "https://github.com/kippie-bv/hotjar-nuxt#readme",
+  "homepage": "https://github.com/kippie-bv/nuxt-hotjar#readme",
   "author": {
     "name": "Mees Hoogendoorn",
-    "email": "m.hoogendoorn@krs.nl"
+    "email": "m.hoogendoorn@krs.nl",
+    "url" : "https://www.linkedin.com/in/meeshoogendoorn"
   },
   "keywords": [
     "hotjar",
@@ -25,7 +26,12 @@
     "node",
     "javascript"
   ],
-  "license": "MIT",
+  "licenses" : [
+    {
+      "type": "MIT",
+      "url": "https://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
   "dependencies": {
     "@hotjar/browser": "^1.0.3"
   }
