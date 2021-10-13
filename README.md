@@ -1,4 +1,5 @@
 # hotjar-nuxt
+This package is based on `@hotjar/browser`
 
 ### Installing
 npm: `npm install @kippie-bv/nuxt-hotjar`
