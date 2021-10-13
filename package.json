@@ -1,6 +1,6 @@
 {
   "name": "@kippie-bv/nuxt-hotjar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hotjar integration for Nuxt",
   "main": "lib/module.js",
   "repository": {
