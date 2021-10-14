@@ -36,3 +36,24 @@ this.$hotjar.identify(userId, {
   color: favoriteColor
 });
 ```
+
+
+### Debug
+The option debug is available to allow session tracking locally. When enabled the module will ignore if you are on dev or prod environment.
+
+
+```js
+// nuxt.config.js
+export default {
+  modules: [
+    "@kippie-bv/nuxt-hotjar",
+  ],
+  
+  hotjar: {
+    id: "YOUR_HOTJAR_ID",
+    version: 6, // default: 6
+    debug: true // default: false
+  }
+}
+```
+
